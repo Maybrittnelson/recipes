@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/recipe-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/recipe-crawler" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/recipe-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/recipe-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/recipe-ws" charset="UTF-8" />
   </component>
 </project>

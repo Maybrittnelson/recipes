@@ -7,9 +7,7 @@
     <version>1.0.0</version>
     <modules>
         <module>recipe-crawler</module>
-        <module>recipe-search</module>
         <module>recipe-api</module>
-        <module>recipe-ws</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -219,5 +217,14 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <repositories>
+
+        <repository>
+            <id>ebi</id>
+            <name>www.ebi.ac.uk</name>
+            <url>http://www.ebi.ac.uk/intact/maven/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
 
 </project>

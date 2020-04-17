@@ -5,24 +5,24 @@
     <option name="delegateToJavac" value="true" />
   </component>
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="recipe-api" />
         <module name="recipe-crawler" />
-        <module name="recipe-search" />
-        <module name="recipe-ws" />
+        <module name="recipe-api" />
+        <module name="recipe-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="recipe-api" target="1.8" />
-      <module name="recipe-crawler" target="1.8" />
       <module name="recipe-search" target="1.8" />
-      <module name="recipe-ws" target="1.7" />
-      <module name="recipes" target="1.8" />
+      <module name="recipe-ws" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="recipe-web" options="-parameters" />
+    </option>
   </component>
 </project>

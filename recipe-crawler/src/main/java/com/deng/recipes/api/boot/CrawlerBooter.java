@@ -17,7 +17,7 @@ public class CrawlerBooter {
 
     public static void main(String[] args) throws Exception {
         String seed = "http://home.meishichina.com/recipe.html";
-        String cacheDir  = "/cache/crawl/" + "cache" + seed.hashCode();
+        String cacheDir  = "/home/work/gsf/cache/" + "cache" + seed.hashCode();
         crawlStart(MeishitianxiaCrawler.class,  seed,cacheDir, 1, false);
     }
 
